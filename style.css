@@ -44,6 +44,34 @@ p{
 .section {
   width: 48%;
   margin: 0;
+  
+}
+
+.section-list {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.section-item {
+  position:relative;
+  padding-left: 20px;
+}
+
+.section-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 7px;
+  height: 7px;
+  background-color: #5e8b53;
+  border-radius: 50%;
+}
+
+.section span {
+  color: #5e8b53;
+  font-weight: bold;
 }
 
 .section-profile-title {
@@ -74,7 +102,6 @@ p{
 
 .section-title{
   color: #5e8b53;
-  padding: 10px;
   margin: 0;
   text-align: center;
 }
@@ -87,7 +114,8 @@ p{
 }
 
 .project-link {
-    color: #5e8b53;;
+    color: #5e8b53;
+    padding-left: 10px;
 }
 
 .footer{
@@ -98,6 +126,17 @@ p{
   color: #ffffff;	
 }
 
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.github{
+  color: #ffffff;
+  text-decoration:none
+}
 a:visited	{color: #dfceba; text-decoration:none}
 a:hover		{color:#ffffff; text-decoration:underline}
 a:active	{color:#ffffff; text-decoration:underline}
