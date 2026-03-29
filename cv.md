@@ -9,10 +9,13 @@
     * CSS
     * GIT
 # 5. Code example
-```function add(a, b) {
+
+```
+function add(a, b) {
                 return a + b;
               }
-              
+```
+
 # 6. Schedule JS/FE Pre-School 2026 Q1
 # 7. Saint Petersburg Electrotechnical University "LETI"
 # 8. A2 - Pre-Intermediate
