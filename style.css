@@ -7,11 +7,14 @@ html{
 }
 
 body{
+    font-family: "Arial", sans-serif;
+    font-size: medium;
+    font-weight: normal;
+    line-height: normal;
+	color: #111111;
+
 	margin: 0;
 	padding: 0;
-  
-	font-size: 16px;
-	color: #111111;
 }
 
 p{
@@ -118,6 +121,11 @@ p{
     padding-left: 10px;
 }
 
+.contact-link {
+    color: #5e8b53;
+    text-decoration: none;
+}
+
 .footer{
   margin-top: auto;
   height: 50px;
@@ -135,9 +143,21 @@ p{
 
 .github{
   color: #ffffff;
-  text-decoration:none
+  text-decoration:none;
+  margin: 10px;
 }
+
+.rss {
+  vertical-align: middle;
+  margin: 10px;
+  width: 121px;
+  height: 50px;
+  background-image: url('assets/rs-school-logo.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 a:visited	{color: #dfceba; text-decoration:none}
-a:hover		{color:#ffffff; text-decoration:underline}
+a:hover		{color:#9eac79; text-decoration:underline}
 a:active	{color:#ffffff; text-decoration:underline}
 input:hover	{border:2px solid #111111}
