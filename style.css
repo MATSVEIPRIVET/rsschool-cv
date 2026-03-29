@@ -135,7 +135,8 @@ p{
 
 .github{
   color: #ffffff;
-  text-decoration:none
+  text-decoration:none;
+  margin: 10px;
 }
 a:visited	{color: #dfceba; text-decoration:none}
 a:hover		{color:#ffffff; text-decoration:underline}
