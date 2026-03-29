@@ -3,7 +3,7 @@
     * nervy24@gmail.com
     * [Telegram] (https://t.me/MATVEYPRIVET)
     * matveyprivet
-# 3. I'm a design engineer. I'm tired of my job and want to change my major. So I'm here on the course from *rs school*. My goal is to become a *programmer* after the course.
+# 3. I work as a design engineer. But now I want to change the direction. So I'm here on the course from *rs school*. My goal is to become a *Front-End Developer* after the course.
 # 4. Skills:
     * HTML&CSS
     * GIT

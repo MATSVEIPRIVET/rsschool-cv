@@ -1,34 +1,100 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
 }
 
 body{
-    margin: 0;
-    padding: 0;
-
-    font-size: 16px;
-    color: #111;
+	margin: 0;
+	padding: 0;
+  
+	font-size: 16px;
+	color: #111111;
 }
 
-h1{
-    color:white;
+p{
+  padding: 10px;
 }
 
-.page{
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+.page {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
+
 .header{
-    height: 50px;
-    background-color: teal;
+	background-color: #5e8b53;
+}
+
+.container{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.main-container {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 48%;
+  margin: 0;
+}
+
+.section-profile-title {
+  color: #5e8b53;
+  text-align: end;
+  text-transform: uppercase;
+}
+
+.section-profile-logo {
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+.nav-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  list-style: none;
+}
+
+.nav-link{
+  transition: 0.3s;
+  padding: 0 20px;
+  line-height: 50px;
+}
+
+.section-title{
+  color: #5e8b53;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+}
+
+.panel{
+  border: 2px solid #5e8b53;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
 }
 
 .footer{
-    margin-top: auto;
-    
-    height: 50px;
-    background-color: teal;
-    color: aliceblue;
+  margin-top: auto;
+  height: 50px;
+
+  background-color: #5e8b53;
+  color: #ffffff;	
 }
+
+a:link		{color:#ffffff; text-decoration:none}
+a:visited	{color: #dfceba; text-decoration:none}
+a:hover		{color:#ffffff; text-decoration:underline}
+a:active	{color:#ffffff; text-decoration:underline}
+input:hover	{border:2px solid #111111}
