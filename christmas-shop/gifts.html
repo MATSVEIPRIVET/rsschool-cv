@@ -5,9 +5,11 @@
     <title>Christmas shop</title>
     <link rel="stylesheet" href="style.css" >
     <link rel="icon" href="assets/icons/Vector.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="module" src="./script.js"></script>
   </head>
-  <body>
-    <div class="page">
+  <body id="body">
+    <div class="page" >
       <header class="header">
         <div class="header-container">
           <a href="./Index.html" class="logo-box">
@@ -16,10 +18,8 @@
             </div>
             <p class="action-small logo-font">the gifts</p>
           </a>
+          <label class="nav-label" for="burger-toggle"></label>
           <nav class="nav action-small">
-            <input id="burger-toggle" type="checkbox">
-            <label class="nav-label" for="burger-toggle">
-            </label>
             <ul class="nav-list">
               <li class="nav-item">
                 <a class="nav-link nav-link-active">gifts</a>
