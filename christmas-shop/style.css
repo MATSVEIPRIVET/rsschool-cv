@@ -872,6 +872,18 @@ a {
   display: none;
 }
 
+.scroll-top-button {
+  visibility: hidden;
+  position: fixed;
+  right: 8px;
+  bottom: 8px;
+  width: 56px;
+  height: 56px;
+  background-color: #ffffff;
+  border: #ff4646 1px solid;
+  border-radius: 56px;
+}
+
 @media (max-width: 1200px) {
   .gifts-section-container {
     margin: 60px 48px 48px;
@@ -986,4 +998,13 @@ a {
     visibility: visible;
     transition: all 0.4s ease-in-out, visibility 0s linear 0s;
   }
+
+  .scroll-top-button {
+  visibility: visible;
+  }
+
+}
+
+.hidden {
+  visibility: hidden;
 }
